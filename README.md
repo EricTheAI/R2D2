@@ -1,2 +1,2 @@
 # R2D2
-a QA system
+A Knowledge-based QA system.
