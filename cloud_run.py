@@ -115,8 +115,8 @@ for dev_doc in tqdm(dev, desc='Extracting sentences from documents'):
 # In[128]:
 
 from nltk.tag.stanford import StanfordNERTagger
-st = StanfordNERTagger('/home/ec2-user/stanford-ner-2016-10-31/classifiers/english.muc.7class.distsim.crf.ser.gz',
-               '/home/ec2-user/stanford-ner-2016-10-31/stanford-ner.jar') 
+st = StanfordNERTagger('/home/ec2-user/stanford-ner-2015-04-20/classifiers/english.muc.7class.distsim.crf.ser.gz',
+               '/home/ec2-user/stanford-ner-2015-04-20/stanford-ner.jar') 
 
 test_tag = []
 for i in range(len(match_sent)):
