@@ -1,2 +1,2 @@
 # R2D2
-A QA system.
+A Question Answering system.
