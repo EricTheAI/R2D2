@@ -90,3 +90,5 @@ ENV/
 
 
 .DS_Store
+stanford-ner-2016-10-31／
+stanford-postagger.jar.zip
